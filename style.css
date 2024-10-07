@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.navbar{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #f7f5f5;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+}
+
+.navbar ul li{
+   margin-left: 20px;
+}
+.name{
+    margin-left: 20px;
+}
+
+
+/* background img */
+
+#home{
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    background-image:url(/Aniket-ahire/images/pexels-adrian-dorobantu-989175-2127733.jpg) ;
+    animation-name: change;
+    background-size: cover;
+    animation-duration: 7s;
+}
+
+@keyframes change {
+    0% {background-image: url(/Aniket-ahire/images/pexels-adrian-dorobantu-989175-2127733.jpg);}
+    25% {background-image: url(/Aniket-ahire/images/pexels-jmark-253096.jpg)}
+    50% {background-image: url(/Aniket-ahire//images/pexels-mikebirdy-116675.jpg);}
+    75%{background-image: url(/Aniket-ahire/images/pexels-mikebirdy-120049.jpg);}
+    100%{background-image: url(/Aniket-ahire//images/pexels-mikebirdy-170811.jpg);}
+}
+
+
+/* main section */
+.main{
+    
+    width: 100%;
+    background-color: white;
+   padding-top: 30px;
+}
+#featured{
+    height: 600px;
+    width: 90%;
+    /* background-color:  rgb(248, 247, 247); */
+    border: 1px solid gray;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.f-img{
+    width: 60%;
+}
+.f-img img{
+    height: 400px;
+    width: 90%;
+    margin: 100px 50px 100px 50px 
+   
+}
+
+.text{
+  height: 400px;
+  width: 40%;
+  padding: 20px;
+  
+}
+
+.text h3{
+    font-size: 2.0rem;
+  
+}
+#launch{
+  
+        height: 600px;
+        width: 90%;
+        /* background-color:rgb(248, 247, 247); */
+        border: 1px solid gray;
+        margin: auto;
+        display: flex;
+        align-items: center;
+}
+
+#About{
+    
+    height: 600px;
+    width: 90%;
+    /* background-color:rgb(248, 247, 247); */
+    border: 1px solid gray;
+    margin: auto;
+    display: flex;
+    
+}
+
+.we{
+    
+    width: 100%;
+    margin: 10px 10px 10px 10px ;
+    background-color: aqua;
+}
+
+.we h1{
+    margin: 100px ;
+}
+.we span{
+    display: block;
+    width: 15%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.we input{
+    
+  height: 30px;
+ width: 30%;
+}
